@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BibleReader" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- 夜间模式：深色背景，浅色文字 -->
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="colorSurface">@android:color/black</item>
+        <item name="colorOnSurface">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/darker_gray</item>
+        
+        <!-- 主要颜色 -->
+        <item name="colorPrimary">@android:color/holo_blue_light</item>
+        <item name="colorOnPrimary">@android:color/black</item>
+        
+        <!-- 次要颜色 -->
+        <item name="colorSecondary">@android:color/holo_green_light</item>
+        <item name="colorOnSecondary">@android:color/black</item>
+        
+        <!-- 表面颜色 -->
+        <item name="colorSurfaceVariant">@android:color/darker_gray</item>
+        <item name="colorOnSurfaceVariant">@android:color/white</item>
+        
+        <!-- 轮廓颜色 -->
+        <item name="colorOutline">@android:color/darker_gray</item>
+        
+        <!-- 错误颜色 -->
+        <item name="colorError">@android:color/holo_red_light</item>
+        <item name="colorOnError">@android:color/black</item>
+    </style>
+</resources>

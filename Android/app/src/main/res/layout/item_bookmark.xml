@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="16dp"
+    android:layout_margin="4dp"
+    android:elevation="2dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <!-- 书卷和章节信息 -->
+    <TextView
+        android:id="@+id/tvBookInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="创世记 第1章"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp" />
+
+    <!-- 经文内容 -->
+    <TextView
+        android:id="@+id/tvVerseContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="经文内容..."
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginBottom="8dp"
+        android:maxLines="3"
+        android:ellipsize="end" />
+
+    <!-- 底部信息行 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- 经文号 -->
+        <TextView
+            android:id="@+id/tvVerseNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第1节"
+            android:textSize="12sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:background="@android:color/holo_blue_light"
+            android:padding="4dp"
+            android:layout_marginEnd="8dp" />
+
+        <!-- 添加时间 -->
+        <TextView
+            android:id="@+id/tvAddTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2024-01-01 12:00"
+            android:textSize="12sp"
+            android:textColor="@android:color/darker_gray"
+            android:gravity="end" />
+
+    </LinearLayout>
+
+    <!-- 导航按钮布局 -->
+    <LinearLayout
+        android:id="@+id/navigationLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="16dp"
+    android:layout_margin="4dp"
+    android:elevation="2dp">
+
+    <!-- 导航按钮布局 -->
+    <LinearLayout
+        android:id="@+id/navigationLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- 上一章按钮 -->
+        <Button
+            android:id="@+id/btnPrevChapter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="上一章"
+            android:layout_marginEnd="8dp"
+            android:background="@android:color/holo_blue_light"
+            android:textColor="@android:color/white" />
+
+        <!-- 下一章按钮 -->
+        <Button
+            android:id="@+id/btnNextChapter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="下一章"
+            android:layout_marginStart="8dp"
+            android:background="@android:color/holo_green_light"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">药品提醒</string>
+    <string name="medicine_reminder">药品提醒</string>
+    <string name="add_medicine">添加药品</string>
+    <string name="medicine_list">药品列表</string>
+    <string name="alarm_settings">闹钟设置</string>
+    <string name="checkin_history">打卡记录</string>
+    <string name="settings">设置</string>
+    <string name="medicine_name">药品名称</string>
+    <string name="medicine_dosage">剂量</string>
+    <string name="medicine_frequency">服用频率</string>
+    <string name="medicine_remaining">剩余数量</string>
+    <string name="alarm_time">提醒时间</string>
+    <string name="take_medicine">已服药</string>
+    <string name="skip_medicine">跳过</string>
+    <string name="medicine_taken">已服药</string>
+    <string name="medicine_skipped">已跳过</string>
+</resources>

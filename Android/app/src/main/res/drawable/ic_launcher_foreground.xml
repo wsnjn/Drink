@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- 背景圆形 -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M54,54m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0" />
+    
+    <!-- 闹钟主体 -->
+    <path
+        android:fillColor="#81C784"
+        android:pathData="M54,20c-18.8,0 -34,15.2 -34,34s15.2,34 34,34s34,-15.2 34,-34S72.8,20 54,20zM54,80c-14.4,0 -26,-11.6 -26,-26s11.6,-26 26,-26s26,11.6 26,26S68.4,80 54,80z" />
+    
+    <!-- 闹钟边框 -->
+    <path
+        android:fillColor="#4CAF50"
+        android:strokeWidth="2"
+        android:pathData="M54,20c-18.8,0 -34,15.2 -34,34s15.2,34 34,34s34,-15.2 34,-34S72.8,20 54,20zM54,80c-14.4,0 -26,-11.6 -26,-26s11.6,-26 26,-26s26,11.6 26,26S68.4,80 54,80z" />
+    
+    <!-- 顶部铃铛 -->
+    <path
+        android:fillColor="#81C784"
+        android:pathData="M44,18c-2,0 -4,2 -4,4s2,4 4,4s4,-2 4,-4S46,18 44,18zM64,18c-2,0 -4,2 -4,4s2,4 4,4s4,-2 4,-4S66,18 64,18z" />
+    
+    <!-- 铃铛装饰点 -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M44,20m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0M64,20m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+    
+    <!-- 顶部旋钮 -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M52,16h4v4h-4z" />
+    
+    <!-- 底部支架 -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M40,82c-2,0 -4,2 -4,4s2,4 4,4s4,-2 4,-4S42,82 40,82zM68,82c-2,0 -4,2 -4,4s2,4 4,4s4,-2 4,-4S70,82 68,82z" />
+    
+    <!-- 表盘 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,34m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0" />
+    
+    <!-- 表盘边框 -->
+    <path
+        android:fillColor="#4CAF50"
+        android:strokeWidth="2"
+        android:pathData="M54,34m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0" />
+    
+    <!-- 时针 -->
+    <path
+        android:fillColor="#4CAF50"
+        android:strokeWidth="2"
+        android:pathData="M54,54L54,46" />
+    
+    <!-- 分针 -->
+    <path
+        android:fillColor="#4CAF50"
+        android:strokeWidth="2"
+        android:pathData="M54,54L60,54" />
+    
+    <!-- 中心点 -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M54,54m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+    
+    <!-- 刻度线 -->
+    <path
+        android:fillColor="#BDBDBD"
+        android:strokeWidth="1"
+        android:pathData="M54,36L54,38" />
+    <path
+        android:fillColor="#BDBDBD"
+        android:strokeWidth="1"
+        android:pathData="M72,54L70,54" />
+    <path
+        android:fillColor="#BDBDBD"
+        android:strokeWidth="1"
+        android:pathData="M54,72L54,70" />
+    <path
+        android:fillColor="#BDBDBD"
+        android:strokeWidth="1"
+        android:pathData="M36,54L38,54" />
+    
+    <!-- 眼睛 -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M50,50m-1.5,0a1.5,1.5 0,1 1,3 0a1.5,1.5 0,1 1,-3 0M58,50m-1.5,0a1.5,1.5 0,1 1,3 0a1.5,1.5 0,1 1,-3 0" />
+    
+    <!-- 腮红 -->
+    <path
+        android:fillColor="#FFB3BA"
+        android:pathData="M48,58m-2,-1.5a2,1.5 0,1 1,4 0a2,1.5 0,1 1,-4 0M60,58m-2,-1.5a2,1.5 0,1 1,4 0a2,1.5 0,1 1,-4 0" />
+    
+</vector>
